@@ -9,23 +9,26 @@ class Contact extends Component {
       <div>
         <h2>Connect with Adrienne:</h2>
         <div class="contact_parts">
-          <a
-            href="https://www.linkedin.com/in/asmith-webdev/"
-            alt="Linked In Icon Link to Adrienne's profile."
-          >
-            <img className="social_logo" src={linkedin} />
+          <a href="https://www.linkedin.com/in/asmith-webdev/">
+            <img
+              className="social_logo"
+              src={linkedin}
+              alt="Linked In Icon Link to Adrienne's profile."
+            />
           </a>
-          <a
-            href="https://github.com/aes89"
-            alt="GitHub Icon Link to Adrienne's profile."
-          >
-            <img className="social_logo" src={github} />
+          <a href="https://github.com/aes89">
+            <img
+              className="social_logo"
+              src={github}
+              alt="GitHub Icon Link to Adrienne's profile."
+            />
           </a>
-          <a
-            href="https://twitter.com/Adrienne_es"
-            alt="Twitter Icon Link to Adrienne's profile."
-          >
-            <img className="social_logo" src={twitter} />
+          <a href="https://twitter.com/Adrienne_es">
+            <img
+              className="social_logo"
+              src={twitter}
+              alt="Twitter Icon Link to Adrienne's profile."
+            />
           </a>
         </div>
       </div>
