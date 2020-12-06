@@ -12,7 +12,11 @@ class Main extends Component {
         <div className="flexContainer">
           <div className="col1">
             <div className="image">
-              <img className="Adrienne" src={Adrienne} />
+              <img
+                className="Adrienne"
+                alt="Adrienne is smiling in front of a monitor, looking exceptionally hirable."
+                src={Adrienne}
+              />
             </div>
             <h1>Adrienne Smith</h1>
           </div>
