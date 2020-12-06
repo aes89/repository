@@ -9,26 +9,30 @@ class Main extends Component {
   render() {
     return (
       <HashRouter>
-        <div>
-          <div className="image">
-            <img className="Adrienne" src={Adrienne} />
+        <div className="flexContainer">
+          <div className="col1">
+            <div className="image">
+              <img className="Adrienne" src={Adrienne} />
+            </div>
+            <h1>Adrienne Smith</h1>
           </div>
-          <h1>Adrienne Smith</h1>
-          <ul className="header">
-            <li>
-              <NavLink to="/">Home</NavLink>
-            </li>
-            <li>
-              <NavLink to="/Projects">Projects</NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact">Contact</NavLink>
-            </li>
-          </ul>
-          <div className="content">
-            <Route exact path="/" component={Home} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/contact" component={Contact} />
+          <div className="col2">
+            <ul className="header">
+              <li>
+                <NavLink to="/">Home</NavLink>
+              </li>
+              <li>
+                <NavLink to="/Projects">Projects</NavLink>
+              </li>
+              <li>
+                <NavLink to="/contact">Contact</NavLink>
+              </li>
+            </ul>
+            <div className="content">
+              <Route exact path="/" component={Home} />
+              <Route path="/projects" component={Projects} />
+              <Route path="/contact" component={Contact} />
+            </div>
           </div>
         </div>
       </HashRouter>

@@ -4,17 +4,25 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <h2>Projects</h2>
-        <p>
-          Mauris sem velit, vehicula eget sodales vitae, rhoncus eget sapien:
-        </p>
-        <ol>
-          <li>Nulla pulvinar diam</li>
-          <li>Facilisis bibendum</li>
-          <li>Vestibulum vulputate</li>
-          <li>Eget erat</li>
-          <li>Id porttitor</li>
-        </ol>
+        <h2>Projects:</h2>
+        <ul>
+          <li>
+            <a href="https://blog-hackathon.herokuapp.com/">Blog</a>: hackathon
+            project with one other student, using react.
+          </li>
+          <li>
+            <a href="https://bulb-hackathon.netlify.app/">Bulb</a>: hackathon
+            project with one other student, using plain JavaScript.
+          </li>
+          <li>
+            <a href="https://bulb-hackathon.netlify.app/">Plantr.</a>:
+            marketplace app built Ruby on Rails, without styling.
+          </li>
+          <li>
+            <a href="https://aes89.github.io/">Portfolio</a>: portfolio built
+            using only HTML and CSS.
+          </li>
+        </ul>
       </div>
     );
   }

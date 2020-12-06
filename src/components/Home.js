@@ -6,14 +6,16 @@ class Home extends Component {
       <div>
         <h2>Summary</h2>
         <p>
-          Cras facilisis urna ornare ex volutpat, et convallis erat elementum.
-          Ut aliquam, ipsum vitae gravida suscipit, metus dui bibendum est, eget
-          rhoncus nibh metus nec massa. Maecenas hendrerit laoreet augue nec
-          molestie. Cum sociis natoque penatibus et magnis dis parturient
-          montes, nascetur ridiculus mus.
+          Adrienne has a previous career in Speech Pathology in early
+          intervention and disability services. She has found the shift from
+          play-based therapy to the precision, logic-focused world of
+          programming a welcome challenge. Her projects have included HTML, CSS,
+          Ruby, Ruby on Rails, Javascript, Express and React. Adrienne adores
+          the outdoors, her pets and plants and looks forward to telling you the
+          latest way she has disappointed her bonsais.
         </p>
 
-        <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
+        <p>Adrienne is open to hearing about employment opportunities!</p>
       </div>
     );
   }
