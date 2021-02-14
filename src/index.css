@@ -96,11 +96,16 @@ body {
     height: 100%;
 }
 
- .col2 {
+.col2 {
     width: 60%;
  }
+
 .Adrienne {
     width: 65%;
+}
+
+.homeSummary {
+  max-width: 40%;
 }
 
 .social_logo {

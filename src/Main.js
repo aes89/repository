@@ -14,7 +14,7 @@ class Main extends Component {
             <div className="image">
               <img
                 className="Adrienne"
-                alt="Adrienne is smiling in front of a monitor, looking exceptionally hirable."
+                alt="Adrienne is smiling in front of a monitor, her girthy ginger cat and a snake plant, looking exceptionally hirable."
                 src={Adrienne}
               />
             </div>
