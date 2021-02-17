@@ -5,6 +5,7 @@ class Home extends Component {
     return (
       <div>
         <h2 class="homeSummary">Summary</h2>
+        <br />
         <p class="homeSummary">
           Adrienne has a previous career in Speech Pathology in early
           intervention and disability services. She has found the shift from
@@ -14,7 +15,7 @@ class Home extends Component {
           the outdoors, her pets and plants and looks forward to telling you the
           latest way she has disappointed her bonsais.
         </p>
-
+        <br />
         <p class="homeSummary">
           Adrienne is open to hearing about employment opportunities!
         </p>
