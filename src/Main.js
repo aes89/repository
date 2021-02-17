@@ -18,7 +18,7 @@ class Main extends Component {
                 src={Adrienne}
               />
             </div>
-            <h1>Adrienne Smith</h1>
+            <h1 class="name">Adrienne Smith</h1>
           </div>
           <div className="col2">
             <ul className="header">
