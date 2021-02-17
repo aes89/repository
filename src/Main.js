@@ -23,13 +23,19 @@ class Main extends Component {
           <div className="col2">
             <ul className="header">
               <li>
-                <NavLink to="/">Home</NavLink>
+                <h2>
+                  <NavLink to="/">Home</NavLink>
+                </h2>
               </li>
               <li>
-                <NavLink to="/Projects">Projects</NavLink>
+                <h2>
+                  <NavLink to="/Projects">Projects</NavLink>
+                </h2>
               </li>
               <li>
-                <NavLink to="/contact">Contact</NavLink>
+                <h2>
+                  <NavLink to="/contact">Contact</NavLink>
+                </h2>
               </li>
             </ul>
             <div className="content">
