@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import { Route, NavLink, HashRouter } from "react-router-dom";
+import React from "react";
 import "../../index.css";
 import Cartman from "./cartman";
 import Koala from "./koala";
