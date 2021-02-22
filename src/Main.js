@@ -24,22 +24,22 @@ class Main extends Component {
           </div>
           <div className="col2">
             <ul className="header">
-              <li>
+              <li class="navCol1">
                 <h2>
                   <NavLink to="/">Home</NavLink>
                 </h2>
               </li>
-              <li>
+              <li class="navCol1">
                 <h2>
                   <NavLink to="/Projects">Projects</NavLink>
                 </h2>
               </li>
-              <li>
+              <li class="navCol2">
                 <h2>
                   <NavLink to="/contact">Contact</NavLink>
                 </h2>
               </li>
-              <li>
+              <li class="navCol2">
                 <h2>
                   <NavLink to="/doodles">Doodles</NavLink>
                 </h2>
