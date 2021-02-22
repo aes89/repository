@@ -18,8 +18,6 @@ ul {
 text-align: left;
 }
 
-
-
 .header {
 list-style: none;
 background-color: #F4F6F5;
@@ -33,8 +31,8 @@ margin-top: 2%;
 margin-bottom: 5%;
 /* box-shadow: 15px 10px 15px #C6D2CB; */
 border-radius: 5px;
-
 }
+
 .li {
 margin: 0; 
 color: #242E28;
@@ -74,9 +72,7 @@ margin-bottom: 5%;
 border-radius: 50%;
 width: 50%;
 margin: 0 auto;
-
 }
-
 
 .contact_parts {
 display: flex;
@@ -88,6 +84,38 @@ justify-content: space-around;
   width: 50px;
   height: auto;
 }
+
+.doodlesRow{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* flex: auto; */
+}
+
+.doodlesCol1 {
+  display: flex;
+  width: 30%;
+  align-content: flex-start;
+}
+
+.doodlesCol2 {
+  display: flex;
+  /* align-content: center; */
+  min-width: 70%;
+  max-width: 70%;
+  border: solid 8px #637E6E;
+  border-radius: 5px;
+  height: 400px;
+  min-width: 80%;
+  text-align: left;
+
+}
+
+.doodleButton {
+  border: 0px;
+  background: #F4F6F5;
+}
+
 
 @media only screen and (min-width: 600px) {
 .Adrienne {
@@ -101,6 +129,23 @@ justify-content: space-around;
   width: 80px;
   height: auto;
 }
+
+.doodlesRow{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.doodlesCol1 {
+  align-content: center;
+}
+
+.doodlesCol2 {
+  max-width: 400px;
+  min-width: 400px;
+}
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -141,4 +186,17 @@ margin: auto;
 .name {
   width: 60%;
   }
+
+.doodlesRow{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.doodlesCol2 {
+  max-width: 400px;
+  min-width: 400px;
+}
+  
+
 }

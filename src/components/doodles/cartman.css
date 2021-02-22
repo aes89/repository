@@ -1,0 +1,190 @@
+
+.cartmanBox {
+    position: relative;
+    margin: auto;
+    display: block;
+    background: #F4F6F5;
+    /* margin-top: 10%; */
+    width: 400px;
+    height: 277px;
+}
+
+.cartmanHead {
+    position: absolute;
+    top: 16.5%;
+    left: 25%;
+    width: 50%;
+    height: 58%;
+    background: rgb(250, 234, 199);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* .hat {
+    position: absolute;
+    top: -5%;
+    left: 1%;
+    background: transparent;
+    z-index: 2;
+    width: 101%;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 rgb(90, 204, 204);
+    transform: rotate(185deg);
+} */
+
+.cartmanHat {
+    position: relative;
+    top: -30%;
+    left: -1%;
+    margin: 2rem;
+    width: 70%;
+    height: 20%;
+    background-color: transparent;
+    box-shadow: inset -12px 5px 0 3px rgb(90, 204, 204);
+    border-radius: 50%;
+    /* spanline-height: 10rem; */
+    transform: rotate(290deg);
+}
+
+.cartmanEyeLeft {
+    position: absolute;
+    background: white;
+    transform: rotate(30deg);
+    width: 23%;
+    height: 33%;
+    top: 26%;
+    left: 25%;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.cartmanEyeRight {
+    position: absolute;
+    background: white;
+    transform: rotate(-30deg);
+    width: 23%;
+    height: 33%;
+    top: 25%;
+    right: 26%;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.cartmanPupilRight {
+    position: absolute;
+    background: black;
+    width: 15%;
+    height: 12%;
+    top: 25%;
+    left: 26%;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.cartmanPupilLeft {
+    position: absolute;
+    background: black;
+    width: 15%;
+    height: 12%;
+    top: 25%;
+    right: 26%;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.cartmanChin {
+    position: absolute;
+    bottom: 3%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    background: rgb(250, 234, 199);
+    border-radius: 50%;
+    border: solid 3px;
+    border-color: rgb(250, 234, 199);
+    border-bottom-color: black;
+    z-index: 2;
+}
+
+.cartmanChin2 {
+    position: absolute;
+    top: 83%;
+    left: 43%;
+    width: 20%;
+    height: 8%;
+    background: rgb(250, 234, 199);
+    border-radius: 50%;
+    border: solid 3px;
+    border-color: rgb(250, 234, 199);
+    border-bottom-color: black;
+    z-index: 2;
+}
+
+.cartmanMouth {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(0 0, 78% 46%, 100% 0);
+    background: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    top: 75%;
+    left: 30%;
+    z-index: 2;
+}
+
+.cartmanMouthOutline {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(0 0, 75% 40%, 98% 0);
+    background: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    top: 75%;
+    left: 30%;
+    z-index: 3;
+}
+
+.cartmanTooth1 {
+    position: absolute;
+    top: 0;
+    left: 6%;
+    width: 23%;
+    height: 15%;
+    background: white;
+    z-index: 4;
+}
+
+.cartmanTooth2 {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 23%;
+    height: 15%;
+    background: white;
+    z-index: 4;
+}
+
+.cartmanTooth3 {
+    position: absolute;
+    top: 0;
+    left: 55%;
+    width: 23%;
+    height: 15%;
+    background: white;
+    z-index: 4;
+}
+
+.cartmanTooth4 {
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 23%;
+    height: 15%;
+    background: white;
+    z-index: 4;
+}
