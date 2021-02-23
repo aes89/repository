@@ -22,6 +22,7 @@ class Home extends Component {
         </p>
         <p class="homeSummary">
           <Twitter
+            message="Hire her, stat!"
             link="http://adriennesmith-portfolio.netlify.app/"
             // label={(serviceName) => localise("share_label", { serviceName })}
           />
