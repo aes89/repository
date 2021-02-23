@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Twitter } from "react-social-sharing";
 
 class Home extends Component {
   render() {
@@ -18,6 +19,12 @@ class Home extends Component {
         <br />
         <p class="homeSummary">
           Adrienne is open to hearing about employment opportunities!
+        </p>
+        <p class="homeSummary">
+          <Twitter
+            link="http://adriennesmith-portfolio.netlify.app/"
+            // label={(serviceName) => localise("share_label", { serviceName })}
+          />
         </p>
       </div>
     );
