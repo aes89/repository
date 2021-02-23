@@ -20,6 +20,8 @@ class Home extends Component {
         <p class="homeSummary">
           Adrienne is open to hearing about employment opportunities!
         </p>
+        <br />
+        <p class="homeSummary">Share Adrienne's portfolio:</p>
         <p class="homeSummary">
           <Twitter
             message="Hire her, stat!"
