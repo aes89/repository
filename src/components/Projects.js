@@ -1,9 +1,13 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 
 class Projects extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Projects!</title>
+        </Helmet>
         <h2>Projects:</h2>
         <ul>
           <li>

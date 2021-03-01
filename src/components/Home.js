@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 import { Twitter, Facebook, Linkedin } from "react-social-sharing";
+import { Helmet } from "react-helmet";
 
 class Home extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Adrienne Smith</title>
+        </Helmet>
         <h2 class="homeSummary">Summary</h2>
         <br />
         <p class="homeSummary">

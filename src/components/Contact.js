@@ -2,11 +2,15 @@ import React, { Component } from "react";
 import github from "../resources/githublogo.png";
 import twitter from "../resources/twitterlogo.png";
 import linkedin from "../resources/linkedinlogo.png";
+import { Helmet } from "react-helmet";
 
 class Contact extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Contact!</title>
+        </Helmet>
         <h2>Connect with Adrienne:</h2>
         <div class="contact_parts">
           <a href="https://www.linkedin.com/in/asmith-webdev/">
