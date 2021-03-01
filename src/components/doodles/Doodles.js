@@ -18,8 +18,9 @@ const Doodles = () => {
   return (
     <div>
       <Helmet>
+        <Title>Doodles!</Title>
         <meta
-          type="og:description"
+          property="og:description"
           content="Look at these fun doodles! They're a little stretched, and Cartman is definitely not finished, but they're cute and fun!"
         />
       </Helmet>
