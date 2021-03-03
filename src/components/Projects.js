@@ -17,6 +17,7 @@ class Projects extends Component {
             content="https://adriennesmith-portfolio.netlify.app/#/Projects"
             data-react-helmet="true"
           />
+          <meta property="og:site_name" content="Adrienne Smith - Projects" />
         </Helmet>
         <h2>Projects:</h2>
         <ul>
