@@ -7,6 +7,11 @@ class Projects extends Component {
       <div>
         <Helmet>
           <title>Projects!</title>
+          <meta property="og:title" content="Adrienne Smith - Projects" />
+          <meta
+            property="og:description"
+            content="Check out Adrienne's past projects! She completed assignments using Ruby, Ruby on Rails, React and MERN stack."
+          />
         </Helmet>
         <h2>Projects:</h2>
         <ul>
