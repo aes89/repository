@@ -242,13 +242,12 @@ margin: auto;
   }
 
   .logoLargeScreen {
-    width: 20%;
+    width: 40%;
     visibility: visible;
     display: block;
     margin: 0 auto;
     bottom: 0px;
     padding: 3%;
-    border-radius: 5px;
     margin-bottom: 5%;
   }
 

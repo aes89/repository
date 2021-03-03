@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 import Doodles from "./components/doodles/Doodles";
 
 import Adrienne from "./resources/Adrienne.jpeg";
-import logo from "./resources/image42trans.png";
+import logo from "./resources/logotransp.png";
 
 class Main extends Component {
   render() {
