@@ -34,21 +34,21 @@ class Home extends Component {
           <Twitter
             style={styles}
             solidcircle
-            message="Hire her, stat!"
+            // message="Hire her, stat!"
             link="http://adriennesmith-portfolio.netlify.app/"
             // label={(serviceName) => localise("share_label", { serviceName })}
           />
           <Facebook
             style={styles}
             solidcircle
-            message="Hire her, stat!"
+            // message="Hire her, stat!"
             link="http://adriennesmith-portfolio.netlify.app/"
             // label={(serviceName) => localise("share_label", { serviceName })}
           />
           <Linkedin
             style={styles}
             solidcircle
-            message="Hire her, stat!"
+            // message="Hire her, stat!"
             link="http://adriennesmith-portfolio.netlify.app/"
             // label={(serviceName) => localise("share_label", { serviceName })}
           />
