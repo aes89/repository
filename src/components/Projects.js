@@ -12,6 +12,11 @@ class Projects extends Component {
             property="og:description"
             content="Check out Adrienne's past projects! She completed assignments using Ruby, Ruby on Rails, React and MERN stack."
           />
+          <meta
+            property="og:url"
+            content="https://adriennesmith-portfolio.netlify.app/#/Projects"
+            data-react-helmet="true"
+          />
         </Helmet>
         <h2>Projects:</h2>
         <ul>
