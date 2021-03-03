@@ -117,6 +117,19 @@ justify-content: space-around;
   background: #F4F6F5;
 }
 
+.logoSmallScreen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin-top: 5%;
+}
+
+.logoLargeScreen {
+  visibility: hidden;
+  display: none;
+
+}
 
 @media only screen and (min-width: 600px) {
   .header {
@@ -135,33 +148,42 @@ justify-content: space-around;
     border-radius: 5px;
     }
 
-.Adrienne {
-  border-radius: 50%;
-  width: 30%;
-  margin: 0 auto;
-}
+  .Adrienne {
+      border-radius: 50%;
+      width: 30%;
+      margin: 0 auto;
+    }
 
-.social_logo {
-  border-radius: 100%;
-  width: 80px;
-  height: auto;
-}
+  .social_logo {
+      border-radius: 100%;
+      width: 80px;
+      height: auto;
+    }
 
-.doodlesRow{
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-evenly;
-  flex-direction: row;
-}
+  .doodlesRow{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      flex-direction: row;
+    }
 
-.doodlesCol1 {
-  align-content: center;
-}
+  .doodlesCol1 {
+      align-content: center;
+    }
 
-.doodlesCol2 {
-  max-width: 400px;
-  min-width: 400px;
-}
+  .doodlesCol2 {
+      max-width: 400px;
+      min-width: 400px;
+    }
+
+    .logoSmallScreen {
+      margin-top: 0 auto;
+    }
+
+    .logoLargeScreen {
+      visibility: hidden;
+      display: none;
+    }
 
 }
 
@@ -214,6 +236,20 @@ margin: auto;
   max-width: 400px;
   min-width: 400px;
 }
-  
+  .logoSmallScreen {
+    visibility: hidden;
+    display: none;
+  }
+
+  .logoLargeScreen {
+    width: 20%;
+    visibility: visible;
+    display: block;
+    margin: 0 auto;
+    bottom: 0px;
+    padding: 3%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+  }
 
 }

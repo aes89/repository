@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Doodles from "./components/doodles/Doodles";
 
 import Adrienne from "./resources/Adrienne.jpeg";
+import logo from "./resources/image42trans.png";
 
 class Main extends Component {
   render() {
@@ -21,6 +22,11 @@ class Main extends Component {
               />
             </div>
             <h1 class="name">Adrienne Smith</h1>
+            <img
+              className="logoLargeScreen"
+              alt="Adrienne's logo. A drawn wreath circles Adrienne's initials (AES) and a simple icon of a webpage underneath the initials."
+              src={logo}
+            />
           </div>
           <div className="col2">
             <ul className="header">
@@ -34,6 +40,7 @@ class Main extends Component {
                   <NavLink to="/Projects">Projects</NavLink>
                 </h2>
               </li>
+
               <li class="navCol2">
                 <h2>
                   <NavLink to="/contact">Contact</NavLink>
@@ -52,6 +59,11 @@ class Main extends Component {
               <Route path="/doodles" component={Doodles} />
             </div>
           </div>
+          <img
+            className="logoSmallScreen"
+            alt="Adrienne's logo. A drawn wreath circles Adrienne's initials (AES) and a simple icon of a webpage underneath the initials."
+            src={logo}
+          />
         </div>
       </HashRouter>
     );
