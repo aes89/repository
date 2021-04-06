@@ -34,7 +34,7 @@ class Projects extends Component {
             project with one other student, using plain JavaScript.
           </li>
           <li>
-            <a href="https://bulb-hackathon.netlify.app/">Plantr.</a>:
+            <a href="https://damp-anchorage-55875.herokuapp.com/">Plantr.</a>:
             marketplace app built Ruby on Rails, styling was not required.
           </li>
           <li>
